@@ -41,11 +41,8 @@ body {
 
 .address {
   font-size: 18px;
-  line-height: 24.3px;
-}
-
-address {
   font-style: normal;
+  line-height: 24.3px;
 }
 
 .header__address {
@@ -56,7 +53,7 @@ address {
 .cover {
   position: relative;
   width: 100%;
-  height: 757px;
+  min-height: 757px;
   margin-bottom: 179px;
   padding: 165px 50px 0;
   color: white;
@@ -81,6 +78,7 @@ address {
   margin-bottom: 135px;
   font-weight: bold;
   font-size: 100px;
+  line-height: 100%;
   letter-spacing: calc(0.3 * 100px);
   text-transform: uppercase;
 }
@@ -93,16 +91,17 @@ address {
   display: block;
 }
 
-.cover__title-first {
+.cover__title-ono {
   margin-bottom: 20px;
   line-height: 115%;
 }
 
 .aligned-text_center {
-  margin-bottom: 20px;
-  padding-right: 58px;
-  line-height: 100%;
   text-align: center;
+}
+
+.cover__title-tebe {
+  margin-bottom: 20px;
 }
 
 .no-letter-spacing {
@@ -110,7 +109,6 @@ address {
 }
 
 .aligned-text_right {
-  line-height: 100%;
   text-align: end;
 }
 
@@ -178,7 +176,7 @@ address {
 .lots__card-list-item {
   flex-grow: 1;
   width: 334px;
-  height: 563px;
+  min-height: 563px;
 }
 
 .card-link {
@@ -275,10 +273,6 @@ address {
   row-gap: 24px;
   font-size: 20px;
   line-height: 24px;
-}
-
-.about__text_shortened {
-  padding-right: 5px;
 }
 
 .footer {
